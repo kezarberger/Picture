@@ -41,6 +41,12 @@ rectangle1 = RectangleAsset(25, 25 ,thinline, black)
 rectangle2 = RectangleAsset(100,1 ,thinline, black)
 ellipse = EllipseAsset(12,30, thinline, black)
 ellipse2 = EllipseAsset(50, 7, thinline, black)
+circle = CircleAsset(30, thinline, blue)
+circle1 = CircleAsset(40, thinline, blue)
+circle2 = CircleAsset(40, thinline, blue)
+polygon = PolygonAsset([(966, 610), (966, 645), (1066, 645), (1030, 627.5), (1066, 610)], thinline, blue)
+
+
 
 
 # Now display a rectangle
@@ -50,6 +56,15 @@ Sprite(rectangle1, (900, 425))
 Sprite(rectangle2, (820, 435))
 Sprite(ellipse, (873, 477))
 Sprite(ellipse2, (873, 525))
+Sprite(circle, (873, 580))
+Sprite(circle1, (925, 625))
+Sprite(circle2, (820, 625))
+Sprite(polygon)
+
+
+
+
+
 
 # add your code here /\  /\  /\
 
