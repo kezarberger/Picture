@@ -40,6 +40,8 @@ rectangle = RectangleAsset(150, 150, thinline, yellow)
 rectangle1 = RectangleAsset(25, 25 ,thinline, black) 
 rectangle2 = RectangleAsset(100,1 ,thinline, black)
 rectangle3 = RectangleAsset(100, 35, thinline, blue)
+rectangle4 = RectangleAsset(35, 100, thinline, blue)
+rectangle5 = RectangleAsset(35, 100, thinline, blue)
 ellipse = EllipseAsset(12,30, thinline, black)
 ellipse2 = EllipseAsset(50, 7, thinline, black)
 circle = CircleAsset(30, thinline, blue)
@@ -61,9 +63,9 @@ Sprite(circle, (873, 580))
 Sprite(circle1, (925, 625))
 Sprite(circle2, (820, 625))
 Sprite(polygon)
-Sprite(rectangle3, (800, 617.5))
-
-
+Sprite(rectangle3, (680, 610))
+Sprite(rectangle4, (802, 665))
+Sprite(rectangle5, (910, 665))
 
 
 
