@@ -70,12 +70,25 @@ rectangle29 = RectangleAsset(50, 20, thinline, blue)
 rectangle30 = RectangleAsset(20, 110, thinline, blue)
 rectangle31 = RectangleAsset(50, 20, thinline, blue)
 rectangle32 = RectangleAsset(25, 90, thinline, green)
-rectangle33 = RectangleAsset(25, 100, thinline, black)
-
-
-
-
-
+rectangle33 = RectangleAsset(25, 200, thinline, black)
+rectangle34 = RectangleAsset(100, 25, thinline, black)
+rectangle35 = RectangleAsset(25, 200, thinline, black)
+rectangle36 = RectangleAsset(100, 25, thinline, black)
+rectangle37 = RectangleAsset(25, 140, thinline, yellow)
+rectangle38 = RectangleAsset(100, 25, thinline, yellow)
+rectangle39 = RectangleAsset(25, 115, thinline, yellow)
+rectangle40 = RectangleAsset(25, 140, thinline, green)
+rectangle41 = RectangleAsset(100, 50, thinline, green)
+rectangle42 = RectangleAsset(50, 25, thinline, white)
+rectangle43 = RectangleAsset(140, 140, thinline, blue)
+rectangle44 = RectangleAsset(90, 90, thinline, white)
+rectangle45 = RectangleAsset(25, 140, thinline, red)
+rectangle46 = RectangleAsset(100, 50, thinline, red)
+rectangle47 = RectangleAsset(50, 25, thinline, white)
+rectangle48 = RectangleAsset(35, 35, thinline, red)
+rectangle49 = RectangleAsset(35, 35, thinline, yellow)
+rectangle50 = RectangleAsset(35, 35, thinline, green)
+rectangle51 = RectangleAsset(35, 35, thinline, blue)
 ellipse = EllipseAsset(12,30, Thinline, black)
 ellipse2 = EllipseAsset(50, 7, Thinline, black)
 circle = CircleAsset(30, Thinline, blue)
@@ -97,7 +110,8 @@ circle15 = CircleAsset(22, thinline, white)
 circle16 = CircleAsset(35, thinline, black)
 circle17 = CircleAsset(25, thinline, white)
 circle18 = CircleAsset(15, thinline, green)
-
+circle19 = CircleAsset(70, thinline, black)
+circle20 = CircleAsset(50, thinline, white)
 polygon = PolygonAsset([(1166, 310), (1166, 345), (1266, 345), (1230, 327.5), (1266, 310)], Thinline, blue)
 
 
@@ -161,9 +175,26 @@ Sprite(rectangle31, (675, 375))
 Sprite(rectangle32, (775, 260))
 Sprite(circle18, (787.5, 380))
 Sprite(rectangle33, (20, 440))
-
-
-
+Sprite(rectangle34, (20, 440))
+Sprite(rectangle35, (120, 440))
+Sprite(rectangle36, (20, 500))
+Sprite(rectangle37, (200, 500))
+Sprite(rectangle38, (200, 615))
+Sprite(rectangle39, (275, 500))
+Sprite(rectangle40, (350, 500))
+Sprite(rectangle41, (350, 500))
+Sprite(rectangle42, (375, 525))
+Sprite(rectangle43, (500, 500))
+Sprite(rectangle44, (525, 525))
+Sprite(rectangle45, (700, 500))
+Sprite(rectangle46, (700, 500))
+Sprite(rectangle47, (725, 525))
+Sprite(circle19, (900, 570))
+Sprite(circle20, (900, 570))
+Sprite(rectangle48, (940, 500))
+Sprite(rectangle49, (940, 535))
+Sprite(rectangle50, (940, 570))
+Sprite(rectangle51, (940, 605))
 # add your code here /\  /\  /\
 
 
