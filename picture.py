@@ -1,42 +1,16 @@
-"""
-picture.py
-Author: Kezar
-Credit: Kotz, xnimblenavigatorx
-
-Assignment:picture
-
-Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
-
-Use at least:
-1. Three different Color objects.
-2. Ten different Sprite objects.
-3. One (or more) RectangleAsset objects.
-4. One (or more) CircleAsset objects.
-5. One (or more) EllipseAsset objects.
-6. One (or more) PolygonAsset objects.
-
-See:
-https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/Displaying-Graphics
-for general information on how to use ggame.
-
-See:
-http://brythonserver.github.io/ggame/
-for detailed information on ggame.
-
-"""
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
-# add your code here \/  \/  \/
+
 yellow = Color(0xfff400, 1.0)
 red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 white = Color(0xffffff, 1.0)
-# Define a line style that is a thin (1 pixel) wide black line
+
 Thinline = LineStyle(1, black)
 thinline = LineStyle(0, black)
-# A graphics asset that represents a rectangle
+
 rectangle = RectangleAsset(150, 150, Thinline, yellow)
 rectangle1 = RectangleAsset(25, 25 ,Thinline, black) 
 rectangle2 = RectangleAsset(100,1 ,Thinline, black)
@@ -115,9 +89,6 @@ circle20 = CircleAsset(50, thinline, white)
 polygon = PolygonAsset([(1166, 310), (1166, 345), (1266, 345), (1230, 327.5), (1266, 310)], Thinline, blue)
 
 
-
-
-# Now display a rectangle
 Sprite(rectangle, (1000, 100))
 Sprite(rectangle1, (1020, 125))
 Sprite(rectangle1, (1100, 125))
@@ -195,7 +166,6 @@ Sprite(rectangle48, (940, 500))
 Sprite(rectangle49, (940, 535))
 Sprite(rectangle50, (940, 570))
 Sprite(rectangle51, (940, 605))
-# add your code here /\  /\  /\
 
 
 myapp = App()
