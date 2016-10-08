@@ -67,9 +67,9 @@ rectangle26 = RectangleAsset(20, 110, thinline, yellow)
 rectangle27 = RectangleAsset(20, 70, thinline, black)
 rectangle28 = RectangleAsset(20, 70, thinline, blue)
 rectangle29 = RectangleAsset(50, 20, thinline, blue)
-rectangle30 = RectangleAsset(20, 100, thinline, blue)
-
-
+rectangle30 = RectangleAsset(20, 110, thinline, blue)
+rectangle31 = RectangleAsset(50, 20, thinline, blue)
+rectangle32 = RectangleAsset(25, 90, thinline, green)
 ellipse = EllipseAsset(12,30, Thinline, black)
 ellipse2 = EllipseAsset(50, 7, Thinline, black)
 circle = CircleAsset(30, Thinline, blue)
@@ -90,7 +90,7 @@ circle14 = CircleAsset(30, thinline, yellow)
 circle15 = CircleAsset(22, thinline, white)
 circle16 = CircleAsset(35, thinline, black)
 circle17 = CircleAsset(25, thinline, white)
-
+circle18 = CircleAsset(15, thinline, green)
 
 polygon = PolygonAsset([(1166, 310), (1166, 345), (1266, 345), (1230, 327.5), (1266, 310)], Thinline, blue)
 
@@ -151,7 +151,9 @@ Sprite(rectangle27, (630, 285))
 Sprite(rectangle28, (675, 285))
 Sprite(rectangle29, (675, 335))
 Sprite(rectangle30, (725, 285))
-
+Sprite(rectangle31, (675, 375))
+Sprite(rectangle32, (775, 260))
+Sprite(circle18, (787.5, 380))
 # add your code here /\  /\  /\
 
 
